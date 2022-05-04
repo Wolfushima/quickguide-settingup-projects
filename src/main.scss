@@ -5,6 +5,56 @@
 body {
     position: relative;
 }
+
 .navbar-brand > img {
     margin-right: 12px;
+}
+
+.site__layout {
+    max-width: 800px;
+}
+
+main {
+    margin-top: 36px;
+}
+//INTRO
+.intro {
+    h2 {
+        text-align: center;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-bottom: 18px;
+        font-weight: 900;
+        color: #333;
+    }
+    p {
+        padding-top: 9px;
+        text-align: justify;
+        color: rgb(102, 102, 102);
+    }
+}
+
+//SECTIONS
+section {
+    contain: content;
+    margin-bottom: 54px;
+    h3 {
+        padding-top: 18px;
+        font-weight: 600;
+        color: rgb(102, 102, 102);
+    }
+    p {
+        padding-top: 18px;
+        font-weight: 300;
+        color: #666;
+        text-align: justify;
+    }
+    .card {
+        margin-top: 36px;
+        text-align: center;
+        .card-body{
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+    }
 }

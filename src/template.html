@@ -41,16 +41,62 @@
 
     <div class="container site__layout">
       <main>
-        <div class="intro"></div>
-        <div class="content">
-          <h4 id="github">Github</h4>
-          <p>...</p>
-          <h4 id="directories">Directories</h4>
-          <p>...</p>
-          <h4 id="webpack">Webpack</h4>
-          <p>...</p>
-          <h4 id="eslint">ESLINT</h4>
-          <p>...</p>
+        <div class="container intro">
+            <h2 class="intro__title">Setting up a JS project with Webpack and ESLINT</h2>
+            <p class="mx-auto">I just started using Webpack and ESLINT. Everytime I use it I have had to either go back to the documention or to a video tutorial, this can either be good or bad. Yes, it helps me understand it better, but also sometimes there is just too much information about extra pluggins, libraries or other stuff I don't need at the moment which ends up just adding extra noise.</p>
+            <p class="mx-auto">To help my self to remember the most basic stuff in a quick manner, I decided to make a quick guide on how to set up a project utilizing Webpack as a bundler and ESLINT to keep my code more consistant and following the best standards.</p>
+            <p class="mx-auto">With that said, It's very important to keep your self updated to any changes in either Webpack or ESLINT. For that reason, under every step of this guide there will be a link to more information (the official documention) about said step, including pluggins and packages used.</p>
+            <p class="mx-auto"><em>This guide is quick by all means, I won't go into details on how things work, by this point you should already have an idea of what to expect from Webpack and ESLINT.</em></p>
+        </div>
+        <div class="container content">
+            <section class="content__github">
+                <h3 id="github">Github</h3>
+                <p>Create a new repository in Github.</p>
+                <img src="./assets/github/github__1.png" class="img-fluid img-thumbnail">
+                <p>Choose a name for your new repository.</p>
+                <img src="./assets/github/github__2.png" class="img-fluid img-thumbnail">
+                <p>Add a README file.</p>
+                <img src="./assets/github/github__3.png" class="img-fluid img-thumbnail">
+                <p>Create Repository.</p>
+                <img src="./assets/github/github__4.png" class="img-fluid img-thumbnail">
+                <p>Navigate to the main page of the repository and copy the SSH key.</p>
+                <img src="./assets/github/github__5.png" class="img-fluid img-thumbnail">
+                <p>Open the terminal, and change the current working directory to the location where you want the cloned repository. Type git clone and then paste the SSH after.</p>
+                <img src="./assets/github/github__6.png" class="img-fluid">
+                <div class="card mx-auto">
+                    <div class="card-header">
+                      More info
+                    </div>
+                    <div class="card-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a href="https://github.com/" class="link-primary">GitHub</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository" class="link-primary">GitHub - Create a new repository</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository" class="link-primary">GitHub - Cloning a repository</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://education.github.com/git-cheat-sheet-education.pdf" class="link-primary">Git commands cheat-sheet</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+            </section>
+            <section class="content__directories">
+                <h3 id="directories">Directories</h3>
+                <p>...</p>
+            </section>
+            <section class="content__webpack">
+                <h3 id="webpack">Webpack</h3>
+                <p>...</p>
+            </section>
+            <section class="content__eslint">
+                <h3 id="eslint">ESLINT</h3>
+                <p>...</p>
+            </section>
         </div>
       </main>
     </div>
