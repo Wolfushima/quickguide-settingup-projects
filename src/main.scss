@@ -6,10 +6,16 @@ body {
     position: relative;
 }
 
+//NAVBAR
 .navbar-brand > img {
     margin-right: 12px;
 }
 
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+//SITE
 .site__layout {
     max-width: 800px;
 }
