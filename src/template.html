@@ -99,7 +99,102 @@
             </section>
             <section class="content__webpack">
                 <h3 id="webpack">Webpack</h3>
-                <p>...</p>
+                <p>Create a package.json file.</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__1.png" class="img-fluid img-thumbnail">
+                <p>In package.json add the next property/value:</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__2.png" class="img-fluid img-thumbnail">
+                <p>In package.json add the next two properties/values inside “scripts”:</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__3.png" class="img-fluid img-thumbnail">
+                <p>Add a .gitignore file to your project directory and type node_modules inside the file.</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__4.png" class="img-fluid img-thumbnail">
+                <h6>Install Webpack</h6>
+                <img src="./assets/webpack-imgs/webpack-imgs__5.png" class="img-fluid img-thumbnail">
+                <h6>Loaders</h6>
+                <p class="wp-p">style-loader and css-loader</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__6.png" class="img-fluid img-thumbnail">
+                <p class="wp-p">sass-loader</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__7.png" class="img-fluid img-thumbnail">
+                <p class="wp-p">html-loader</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__8.png" class="img-fluid img-thumbnail">
+                <h6>Plugins</h6>
+                <p class="wp-p">html-webpack-plugin</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__9.png" class="img-fluid img-thumbnail">
+                <p class="wp-p">mini-css-extract-plugin</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__10.png" class="img-fluid img-thumbnail">
+                <p class="wp-p">css-minimizer-webpack-plugin</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__11.png" class="img-fluid img-thumbnail">
+                <h6>Packages</h6>
+                <p class="wp-p">webpack-merge</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__12.png" class="img-fluid img-thumbnail">
+                <h6>Development Tools</h6>
+                <p class="wp-p">webpack-dev-server</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__13.png" class="img-fluid img-thumbnail">
+
+                <p>Your “<em>devDependencies</em>” inside the package.json file should look something like this:</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__14.png" class="img-fluid img-thumbnail">
+                <p>Add 3 new files to your project directory: <em>webpack.common.js</em>, <em>webpack.dev.js</em> and <em>webpack.prod.js</em></p>
+                <img src="./assets/webpack-imgs/webpack-imgs__15.png" class="img-fluid img-thumbnail">
+                <p>Write the code corresponding their file name.</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__16.png" class="img-fluid img-thumbnail">
+                <img src="./assets/webpack-imgs/webpack-imgs__17.png" class="img-fluid img-thumbnail">
+                <img src="./assets/webpack-imgs/webpack-imgs__18.png" class="img-fluid img-thumbnail">
+                <h6>Testing if everything works properly:</h6>
+                <p>To run webpack in Development mode type in your terminal: <em>npm start</em></p>
+                <img src="./assets/webpack-imgs/webpack-imgs__19.png" class="img-fluid img-thumbnail">
+                <p>This should open a new page in the browser, show your webpage and console log "Hello" and "World".</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__20.png" class="img-fluid img-thumbnail">
+                <p>To run webpack in production mode type in your termina: <em>npm run build</em></p>
+                <img src="./assets/webpack-imgs/webpack-imgs__21.png" class="img-fluid img-thumbnail">
+                <p>This should create a new directory <em>dist</em> including your bundled and minimized files.</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__22.png" class="img-fluid img-thumbnail">
+                <p>To open your new bundled <em>index.html</em> file you can type in your terminal: <em>xdg-open dist/index.html</em></p>
+                <img src="./assets/webpack-imgs/webpack-imgs__23.png" class="img-fluid img-thumbnail">
+                <p>It should open something like this:</p>
+                <img src="./assets/webpack-imgs/webpack-imgs__24.png" class="img-fluid img-thumbnail">
+
+                <div class="card mx-auto">
+                    <div class="card-header">
+                      More info
+                    </div>
+                    <div class="card-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a href="https://webpack.js.org/guides/getting-started/" class="link-primary">Installing Webpack</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://webpack.js.org/loaders/css-loader/" class="link-primary">css-loader</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://webpack.js.org/loaders/style-loader/" class="link-primary">style-loader</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://webpack.js.org/loaders/html-loader/" class="link-primary">html-loader</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://webpack.js.org/plugins/html-webpack-plugin/" class="link-primary">html-webpack-plugin</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://webpack.js.org/plugins/mini-css-extract-plugin/" class="link-primary">mini-css-extract-plugin</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://webpack.js.org/plugins/css-minimizer-webpack-plugin/" class="link-primary">css-minimizer-webpack-plugin</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://www.npmjs.com/package/webpack-merge" class="link-primary">webpack-merge</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://webpack.js.org/guides/development/#using-webpack-dev-server" class="link-primary">Development Tools</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://webpack.js.org/guides/asset-management/" class="link-primary">Asset Management(Load CSS, Images, Fonts, Data)</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+
+
+
             </section>
             <section class="content__eslint">
                 <h3 id="eslint">ESLINT</h3>

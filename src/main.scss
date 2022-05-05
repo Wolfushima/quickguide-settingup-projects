@@ -55,10 +55,21 @@ section {
         color: #666;
         text-align: justify;
     }
+    h6 {
+        padding-top: 36px;
+        color: #666;
+        font-weight: bold;
+    }
+    //webpack p
+    .wp-p {
+        color: #777;
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
     .card {
         margin-top: 36px;
         text-align: center;
-        .card-body{
+        .card-body {
             padding-top: 0px;
             padding-bottom: 0px;
         }
